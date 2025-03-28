@@ -65,7 +65,7 @@ captura = st.camera_input("Toma una foto")
 
 if captura:
     imagen = Image.open(captura)
-    st.image(imagen, caption="Imagen capturada", use_column_width=True)
+    st.image(imagen, caption="Imagen capturada", use_container_width=True)
 
     # Hacer la predicción
     clase, confianza = predecir(imagen)
