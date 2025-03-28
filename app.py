@@ -4,7 +4,7 @@ import numpy as np
 import cv2
 from PIL import Image
 
-modelo = tf.keras.models.load_model("clasificacion-perros-gatos-CNNAD.h5")
+modelo = tf.keras.models.load_model("Clasificacion_perros_gatos.h5")
 
 # Función para procesar la imagen y hacer una predicción
 
